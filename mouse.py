@@ -31,7 +31,7 @@ while True:
                                radius=10, color=(0, 255, 255))
                     thumb_x = screen_width/frame_width*x
                     thumb_y = screen_height/frame_height*y
-                    print('outside', abs(index_y - thumb_y))
+                    # print('outside', abs(index_y - thumb_y))
                     if abs(index_y - thumb_y) < 20:
                         pyautogui.click()
                         pyautogui.sleep(1)
